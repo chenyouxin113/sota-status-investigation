@@ -1,20 +1,20 @@
 # sota-status-investigation
+
 人体姿态估计的过去，现在，未来
 https://zhuanlan.zhihu.com/p/85506259
+
+
 |Pose detection	|Paper	|github	|accuaracy	|performance	|dataset
 |-|-|-|-|-|-|
 |Open Pose| | | | | |
 |Hourglass| | | | | |
 |CPM| | | | | |
 
-|Body detection	|Paper	|github	|accuaracy	|performance	|dataset
-|-|-|-|-|-|-|
-|MASK-RCNN| | | | | |
-|FCOS| | | | | |
-|ExtremNet| | | | | |
 
 
 # object detection & data augmentation
+
+
 |Object detection	|Paper	|github	|accuaracy	|performance	|dataset
 |-|-|-|-|-|-|
 |MASK-RCNN| | | | | |
