@@ -6,9 +6,9 @@ https://zhuanlan.zhihu.com/p/85506259
 
 |Pose detection	|Paper	|github	|accuaracy	|performance	|dataset
 |-|-|-|-|-|-|
-|Open Pose| | | | | |
-|Hourglass| | | | | |
-|CPM| | | | | |
+Open Pose | https://arxiv.org/pdf/1812.08008.pdf | https://github.com/CMU-Perceptual-Computing-Lab/openpose | map:75.6 | 73 ms 1080Ti | MPII
+Hourglass | https://arxiv.org/pdf/1603.06937.pdf | https://github.com/wbenbihi/hourglasstensorlfow | PCKh:90.9 | 75 ms TitanX | MPII
+CPM | https://arxiv.org/pdf/1602.00134.pdf | https://github.com/CMU-Perceptual-Computing-Lab/convolutional-pose-machines-release | PCKh:87.95 | no data | MPII
 
 
 
