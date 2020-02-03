@@ -49,36 +49,68 @@ From
     Tools
     Blogs
 
-Method 	backbone 	test size 	VOC2007 	VOC2010 	VOC2012 	ILSVRC 2013 	MSCOCO 2015 	Speed
-OverFeat 	  	  	  	  	  	24.3% 	  	 
-R-CNN 	AlexNet 	  	58.5% 	53.7% 	53.3% 	31.4% 	  	 
-R-CNN 	VGG16 	  	66.0% 	  	  	  	  	 
-SPP_net 	ZF-5 	  	54.2% 	  	  	31.84% 	  	 
-DeepID-Net 	  	  	64.1% 	  	  	50.3% 	  	 
-NoC 	73.3% 	  	68.8% 	  	  	  	  	 
-Fast-RCNN 	VGG16 	  	70.0% 	68.8% 	68.4% 	  	19.7%(@[0.5-0.95]), 35.9%(@0.5) 	 
-MR-CNN 	78.2% 	  	73.9% 	  	  	  	  	 
+|Method 	|backbone 	|test size 	|VOC2007 	|VOC2010 	|VOC2012 	|ILSVRC 2013 	|MSCOCO 2015 	|Speed|
+|-|-|-|-|-|-|-|-|
+OverFeat 	  	  	  	  	  	24.3%
+ 	  	 
+R-CNN 	AlexNet 	  	58.5% 	53.7% 	53.3% 	31.4%
+ 	  	 
+R-CNN 	VGG16 	  	66.0%
+ 	  	  	  	  	 
+SPP_net 	ZF-5 	  	54.2% 	  	  	31.84%
+ 	  	 
+DeepID-Net 	  	  	64.1% 	  	  	50.3%
+ 	  	 
+NoC 	73.3% 	  	68.8%
+ 	  	  	  	  	 
+Fast-RCNN 	VGG16 	  	70.0% 	68.8% 	68.4% 	  	19.7%(@[0.5-0.95]), 35.9%(@0.5)
+ 	 
+MR-CNN 	78.2% 	  	73.9%
+ 	  	  	  	  	 
 Faster-RCNN 	VGG16 	  	78.8% 	  	75.9% 	  	21.9%(@[0.5-0.95]), 42.7%(@0.5) 	198ms
-Faster-RCNN 	ResNet101 	  	85.6% 	  	83.8% 	  	37.4%(@[0.5-0.95]), 59.0%(@0.5) 	 
+
+Faster-RCNN 	ResNet101 	  	85.6% 	  	83.8% 	  	37.4%(@[0.5-0.95]), 59.0%(@0.5)
+ 	 
 YOLO 	  	  	63.4% 	  	57.9% 	  	  	45 fps
+
 YOLO VGG-16 	  	  	66.4% 	  	  	  	  	21 fps
+
 YOLOv2 	  	448x448 	78.6% 	  	73.4% 	  	21.6%(@[0.5-0.95]), 44.0%(@0.5) 	40 fps
+
 SSD 	VGG16 	300x300 	77.2% 	  	75.8% 	  	25.1%(@[0.5-0.95]), 43.1%(@0.5) 	46 fps
+
 SSD 	VGG16 	512x512 	79.8% 	  	78.5% 	  	28.8%(@[0.5-0.95]), 48.5%(@0.5) 	19 fps
+
 SSD 	ResNet101 	300x300 	  	  	  	  	28.0%(@[0.5-0.95]) 	16 fps
+
 SSD 	ResNet101 	512x512 	  	  	  	  	31.2%(@[0.5-0.95]) 	8 fps
+
 DSSD 	ResNet101 	300x300 	  	  	  	  	28.0%(@[0.5-0.95]) 	8 fps
+
 DSSD 	ResNet101 	500x500 	  	  	  	  	33.2%(@[0.5-0.95]) 	6 fps
-ION 	  	  	79.2% 	  	76.4% 	  	  	 
-CRAFT 	  	  	75.7% 	  	71.3% 	48.5% 	  	 
-OHEM 	  	  	78.9% 	  	76.3% 	  	25.5%(@[0.5-0.95]), 45.9%(@0.5) 	 
+
+ION 	  	  	79.2% 	  	76.4%
+ 	  	  	 
+CRAFT 	  	  	75.7% 	  	71.3% 	48.5%
+ 	  	 
+OHEM 	  	  	78.9% 	  	76.3% 	  	25.5%(@[0.5-0.95]), 45.9%(@0.5)
+ 	 
 R-FCN 	ResNet50 	  	77.4% 	  	  	  	  	0.12sec(K40), 0.09sec(TitianX)
+
 R-FCN 	ResNet101 	  	79.5% 	  	  	  	  	0.17sec(K40), 0.12sec(TitianX)
-R-FCN(ms train) 	ResNet101 	  	83.6% 	  	82.0% 	  	31.5%(@[0.5-0.95]), 53.2%(@0.5) 	 
+
+R-FCN(ms train) 	ResNet101 	  	83.6% 	  	82.0% 	  	31.5%(@[0.5-0.95]), 53.2%(@0.5)
+ 	 
 PVANet 9.0 	  	  	84.9% 	  	84.2% 	  	  	750ms(CPU), 46ms(TitianX)
-RetinaNet 	ResNet101-FPN 	  	  	  	  	  	  	 
+
+RetinaNet 	ResNet101-FPN
+ 	  	  	  	  	  	  	 
 Light-Head R-CNN 	Xception* 	800/1200 	  	  	  	  	31.5%@[0.5:0.95] 	95 fps
+
 Light-Head R-CNN 	Xception* 	700/1100 	  	  	  	  	30.7%@[0.5:0.95] 	102 fps
+
+
+______________________________________________________________________________________________________________________________
 
 
 Papers
